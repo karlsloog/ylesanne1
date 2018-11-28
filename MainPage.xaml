@@ -70,7 +70,38 @@
             </PivotItem>
             <PivotItem Header="Kolmas"></PivotItem>
             <PivotItem Header="Neljas"></PivotItem>
-            <PivotItem Header="Viies"></PivotItem>
+            <PivotItem Header="Viies">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Background="#FF1BBCEC">
+                        
+                        <TextBlock FontFamily="Century Gothic" 
+                                   FontSize="25"
+                                   Margin="0,300,0,0"
+                                   HorizontalAlignment="Center">
+                            Karl Aleksander Sloog
+                        </TextBlock>
+                        
+                        <TextBlock Margin="0,10,0,0"
+                                   HorizontalAlignment="Center"
+                                   FontFamily="Century Gothic"
+                                   FontSize="20">
+                            IS16
+                        </TextBlock>
+
+                        <TextBlock FontFamily="Century Gothic"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,10,0,0"
+                                   FontSize="20">
+                            karl.sloog@gmail.com
+                        </TextBlock>
+                    </StackPanel>
+                </Grid>
+            </PivotItem>
         </Pivot>
     </Grid>
 </Page>
