@@ -14,8 +14,8 @@
             <PivotItem Header="Teine">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="400"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <ScrollViewer Grid.Column="0">
                         <ListView>
@@ -45,6 +45,27 @@
                             <ListViewItem Background="#FFF5EBEB">asdasdasd4</ListViewItem>
                         </ListView>
                     </ScrollViewer>
+
+                    <GridView Grid.Column="1"
+                              HorizontalAlignment="Center"
+                              VerticalAlignment="Center">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal"
+                                        Margin="0,0,0,20">
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd1</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd2</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd3</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd4</GridViewItem>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal"
+                                        Margin="0,20,0,0">
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd5</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd6</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd7</GridViewItem>
+                                <GridViewItem Background="#FFF5EBEB" Padding="50">asd8</GridViewItem>
+                            </StackPanel>
+                        </StackPanel>
+                    </GridView>
                 </Grid>
             </PivotItem>
             <PivotItem Header="Kolmas"></PivotItem>
