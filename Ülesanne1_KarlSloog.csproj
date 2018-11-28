@@ -131,6 +131,9 @@
     <None Include="Ülesanne1_KarlSloog_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\esimene.png" />
+    <Content Include="Assets\kolmas.jpg" />
+    <Content Include="Assets\teine.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
